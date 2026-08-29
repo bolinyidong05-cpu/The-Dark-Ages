@@ -4,141 +4,16 @@
 
 TDA_ideas = {
     # ====================================
-    # 初始国家精神
+    # 遥远的目标
     # ====================================
-    TDA_tradition = {
-        name = "TDA_IDEA_1"
-        desc = "TDA_IDEA_1_desc"
+    TDA_distant_goal = {
+        name = "TDA_DISTANT_GOAL"
+        desc = "TDA_DISTANT_GOAL_desc"
         
-        stability = -0.05
-        political_power_gain = -0.05
-        
-        duration = -1
-    }
-    
-    # ====================================
-    # 封建制度
-    # ====================================
-    TDA_feudalism = {
-        name = "TDA_FEUDALISM"
-        desc = "TDA_FEUDALISM_desc"
-        
-        stability = 0.05
-        political_power_gain = -0.10
-        mobilization_speed = -10.0%
-        supply_factor = -0.10
-        
-        duration = -1
-    }
-    
-    # ====================================
-    # 庄园经济
-    # ====================================
-    TDA_manorialism = {
-        name = "TDA_MANORIALISM"
-        desc = "TDA_MANORIALISM_desc"
-        
-        consumer_goods_factor = -0.05
-        factory_output = 0.05
-        population_growth = 0.10
-        
-        duration = -1
-    }
-    
-    # ====================================
-    # 骑士传统
-    # ====================================
-    TDA_knighthood = {
-        name = "TDA_KNIGHTHOOD"
-        desc = "TDA_KNIGHTHOOD_desc"
-        
-        army_org = 0.10
-        land_attrition = -0.50
-        cavalry_bonus = 0.20
-        
-        duration = -1
-    }
-    
-    # ====================================
-    # 宗教影响
-    # ====================================
-    TDA_religious_influence = {
-        name = "TDA_RELIGIOUS_INFLUENCE"
-        desc = "TDA_RELIGIOUS_INFLUENCE_desc"
-        
-        stability = 0.10
-        political_power_gain = 0.05
-        war_support = 0.10
-        
-        duration = -1
-    }
-    
-    # ====================================
-    # 城墙防御
-    # ====================================
-    TDA_city_walls = {
-        name = "TDA_CITY_WALLS"
-        desc = "TDA_CITY_WALLS_desc"
-        
-        fort_defense = 0.20
-        fort_maintenance = -0.10
-        supply_power = 0.10
-        
-        duration = -1
-    }
-    
-    # ====================================
-    # 贸易路线
-    # ====================================
-    TDA_trade_routes = {
-        name = "TDA_TRADE_ROUTES"
-        desc = "TDA_TRADE_ROUTES_desc"
-        
-        trade_leadership = 0.10
-        consumer_goods_factor = -0.05
-        factory_output = 0.05
-        
-        duration = -1
-    }
-    
-    # ====================================
-    # 中央集权
-    # ====================================
-    TDA_centralization = {
-        name = "TDA_CENTRALIZATION"
-        desc = "TDA_CENTRALIZATION_desc"
-        
-        stability = 0.10
-        political_power_gain = 0.10
-        autonomy_gain = -0.10
-        
-        duration = -1
-    }
-    
-    # ====================================
-    # 农业改革
-    # ====================================
-    TDA_agricultural_reform = {
-        name = "TDA_AGRICULTURAL_REFORM"
-        desc = "TDA_AGRICULTURAL_REFORM_desc"
-        
-        consumer_goods_factor = -0.10
-        population_growth = 0.15
-        factory_output = 0.05
-        
-        duration = -1
-    }
-    
-    # ====================================
-    # 军事改革
-    # ====================================
-    TDA_military_reform = {
-        name = "TDA_MILITARY_REFORM"
-        desc = "TDA_MILITARY_REFORM_desc"
-        
-        army_org = 0.15
-        land_attrition = -0.50
-        mobilization_speed = 10.0%
+        stability = -0.005
+        war_support = -0.20
+        decision_cost_factor = 1.15
+        political_power_gain = -0.50
         
         duration = -1
     }
