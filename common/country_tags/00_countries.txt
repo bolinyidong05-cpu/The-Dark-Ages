@@ -1,0 +1,2 @@
+# Country tags
+CHI = "countries/中华人民共和国.txt"
