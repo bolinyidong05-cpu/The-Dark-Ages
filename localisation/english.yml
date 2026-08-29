@@ -20,5 +20,30 @@ l_english:
  # 国家精神本地化
  # ====================================
 
- TDA_IDEA_1: "Dark Age Tradition"
- TDA_IDEA_1_desc: "A tradition from the dark ages."
+  TDA_IDEA_1: "Dark Age Tradition"
+  TDA_IDEA_1_desc: "A tradition from the dark ages."
+  TDA_IDEA_2: "Medieval Resolve"
+  TDA_IDEA_2_desc: "The resilience of a medieval society."
+
+  # ====================================
+  # 国家精神本地化
+  # ====================================
+
+  TDA_FEUDALISM: "Feudalism"
+  TDA_FEUDALISM_desc: "The feudal system binds lords and vassals in mutual obligation."
+  TDA_MANORIALISM: "Manorialism"
+  TDA_MANORIALISM_desc: "The manor serves as the economic foundation of our realm."
+  TDA_KNIGHTHOOD: "Knighthood"
+  TDA_KNIGHTHOOD_desc: "The chivalrous tradition of mounted warriors."
+  TDA_RELIGIOUS_INFLUENCE: "Religious Influence"
+  TDA_RELIGIOUS_INFLUENCE_desc: "The Church guides our people and strengthens our resolve."
+  TDA_CITY_WALLS: "City Walls"
+  TDA_CITY_WALLS_desc: "Impregnable fortifications protect our cities."
+  TDA_TRADE_ROUTES: "Trade Routes"
+  TDA_TRADE_ROUTES_desc: "Merchants bring wealth from distant lands."
+  TDA_CENTRALIZATION: "Centralization"
+  TDA_CENTRALIZATION_desc: "The Crown's authority grows stronger."
+  TDA_AGRICULTURAL_REFORM: "Agricultural Reform"
+  TDA_AGRICULTURAL_REFORM_desc: "New farming techniques feed our growing population."
+  TDA_MILITARY_REFORM: "Military Reform"
+  TDA_MILITARY_REFORM_desc: "Modern tactics and organization strengthen our armies."
