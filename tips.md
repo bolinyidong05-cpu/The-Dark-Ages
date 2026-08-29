@@ -5,3 +5,7 @@
 2、
   **https://hoi4.paradoxwikis.com/Modding**
   这是官方wiki
+
+3、
+  **docs\dev-guide.md**
+  这是开发指南

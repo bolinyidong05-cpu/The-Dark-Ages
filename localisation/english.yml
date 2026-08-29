@@ -1,2 +1,24 @@
 l_english:
- # 本地化文本占位
+ # ====================================
+ # 国家本地化
+ # ====================================
+
+ # 示例国家
+ TDA: "The Dark Ages"
+ TDA_desc: "A mod exploring the medieval era."
+
+ # ====================================
+ # 事件本地化
+ # ====================================
+
+ TDA_EVENT_1: "Medieval Event"
+ TDA_EVENT_1_desc: "An event from the dark ages."
+ TDA_EVENT_1_A: "Option A"
+ TDA_EVENT_1_B: "Option B"
+
+ # ====================================
+ # 国家精神本地化
+ # ====================================
+
+ TDA_IDEA_1: "Dark Age Tradition"
+ TDA_IDEA_1_desc: "A tradition from the dark ages."

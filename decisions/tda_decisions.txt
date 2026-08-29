@@ -1,0 +1,33 @@
+decision = {
+    id = "TDA_decision_1"
+
+    # 决策图标
+    icon = generic_decision_icon
+
+    # 标题
+    title = "TDA_IDEA_1"
+    description = "TDA_IDEA_1_desc"
+
+    # 触发条件
+    available = {
+        # 条件判断
+        # has_country_flag = flag_name
+    }
+
+    # 成本
+    cost = 50
+
+    # 天数
+    days = 30
+
+    # 效果
+    effect = {
+        # 决策执行效果
+        # add_stability = 0.1
+    }
+
+    # 完成条件
+    complete_effect = {
+        # 完成后的效果
+    }
+}

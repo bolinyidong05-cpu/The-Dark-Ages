@@ -1,1 +1,41 @@
-# 科技占位
+# ====================================
+ # 科技树
+ # ====================================
+
+ # 工业科技
+ industrial_tech = {
+     research_cost = 100
+     
+     effect = {
+         # 科技效果
+         add_building_slot = 1
+     }
+     
+     icon = industrial_icon
+ }
+
+# ====================================
+ # 农业科技
+ # ====================================
+
+ agriculture_tech = {
+     research_cost = 80
+     
+     effect = {
+         # 提升粮食产出
+         add_factories = 1
+     }
+     
+     icon = agriculture_icon
+ }
+
+# ====================================
+ # 科技依赖关系
+ # ====================================
+
+ # 依赖格式:
+ # prerequisite = tech_id
+ # 示例:
+ # advanced_tech = {
+ #     prerequisite = basic_tech
+ # }
