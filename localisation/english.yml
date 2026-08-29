@@ -20,4 +20,28 @@ l_english:
  # ====================================
 
  TDA_DISTANT_GOAL: "A Distant Goal"
- TDA_DISTANT_GOAL_desc: "After the war, the Chinese mainland's economy is even more depressed, and the goal of a moderately prosperous society is becoming increasingly out of reach."
+ TDA_DISTANT_GOAL_desc: "战争过后中华大地上的经济更加萧条，全面小康的目标更加遥不可及"
+
+ TDA_MILITARY_PRIORITY: "Military Priority"
+ TDA_MILITARY_PRIORITY_desc: "战争推动了军事工业的发展，但民用工业却迅速衰减。"
+
+ TDA_BACKWARD_MILITARY_TECH: "Backward Military Technology"
+ TDA_BACKWARD_MILITARY_TECH_desc: "华夏大地上的军事工业已经落伍于时代。"
+
+ TDA_FOUR_INDEPENDENCES: "Four Independences"
+ TDA_FOUR_INDEPENDENCES_desc: "战争过后，港、台、藏、疆的独立势力在国外势力的挑拨之下纷纷抬头，这四个势力相继提出独立建国的无理诉求，并且正在准备行动。"
+
+ TDA_PARTY_FACTIONAL_DISPUTE: "Party Factional Dispute"
+ TDA_PARTY_FACTIONAL_DISPUTE_desc: "战争之后，党的内部对未来的走向出现了不同的声音，而且出现严重的派系斗争。"
+
+ TDA_UNITY: "Unity"
+ TDA_UNITY_desc: "在中国古老的土地上，团结一心一致对外已经成为共识。"
+
+ TDA_MILITARISTIC_TENDENCY: "Militaristic Tendency"
+ TDA_MILITARISTIC_TENDENCY_desc: "长年的战争让军事方势力大涨，军方势力已有压倒政府之势，不禁令人怀疑是否会出现军国主义。"
+
+ TDA_SURROUNDED_BY_ENEMIES: "Surrounded by Enemies"
+ TDA_SURROUNDED_BY_ENEMIES_desc: "亚太似乎一直都这样子，只不过是三战加快了局势罢了，地缘政治的紧张已经严重影响了外贸，周边的所有国家都想从华夏大地上分到一口肉。"
+
+ TDA_CULTURAL_REVOLUTION: "Cultural Revolution"
+ TDA_CULTURAL_REVOLUTION_desc: "战争的开始令中央无法处理文化大革命，不得不令文化大革命继续进行。"

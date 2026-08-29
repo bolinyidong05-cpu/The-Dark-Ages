@@ -1,0 +1,17 @@
+capital = 1
+
+ideas = {
+    TDA_distant_goal = yes
+    TDA_military_priority = yes
+    TDA_backward_military_tech = yes
+    TDA_four_independences = yes
+    TDA_party_factional_dispute = yes
+    TDA_unity = yes
+    TDA_militaristic_tendency = yes
+    TDA_surrounded_by_enemies = yes
+    TDA_cultural_revolution = yes
+}
+
+states = {
+    1 = yes
+}

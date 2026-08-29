@@ -12,8 +12,125 @@ TDA_ideas = {
         
         stability = -0.005
         war_support = -0.20
-        decision_cost_factor = 1.15
+        decision_time_factor = 1.15
         political_power_gain = -0.50
+        
+        duration = -1
+    }
+    
+    # ====================================
+    # 重军轻民
+    # ====================================
+    TDA_military_priority = {
+        name = "TDA_MILITARY_PRIORITY"
+        desc = "TDA_MILITARY_PRIORITY_desc"
+        
+        civilian_factory_build_speed = -0.50
+        military_factory_build_speed = 0.20
+        stability = -0.005
+        war_support = -0.10
+        
+        duration = -1
+    }
+    
+    # ====================================
+    # 落后的军事技术
+    # ====================================
+    TDA_backward_military_tech = {
+        name = "TDA_BACKWARD_MILITARY_TECH"
+        desc = "TDA_BACKWARD_MILITARY_TECH_desc"
+        
+        military_factory_build_speed = -0.25
+        factory_output = -0.20
+        research_time_factor = 0.20
+        production_cost_factor = 0.20
+        
+        duration = -1
+    }
+    
+    # ====================================
+    # 四独
+    # ====================================
+    TDA_four_independences = {
+        name = "TDA_FOUR_INDEPENDENCES"
+        desc = "TDA_FOUR_INDEPENDENCES_desc"
+        
+        stability = -0.01
+        civilian_factory_build_speed = -0.10
+        military_factory_build_speed = -0.20
+        factory_output = -0.10
+        
+        duration = -1
+    }
+    
+    # ====================================
+    # 团结一心
+    # ====================================
+    TDA_unity = {
+        name = "TDA_UNITY"
+        desc = "TDA_UNITY_desc"
+        
+        stability = 0.01
+        recruitment_speed = 0.10
+        
+        duration = -1
+    }
+    
+    # ====================================
+    # 党内派系分歧严重
+    # ====================================
+    TDA_party_factional_dispute = {
+        name = "TDA_PARTY_FACTIONAL_DISPUTE"
+        desc = "TDA_PARTY_FACTIONAL_DISPUTE_desc"
+        
+        stability = -0.005
+        focus_cost_factor = 0.25
+        decision_time_factor = 0.25
+        
+        duration = -1
+    }
+    
+    # ====================================
+    # 军国主义倾向
+    # ====================================
+    TDA_militaristic_tendency = {
+        name = "TDA_MILITARISTIC_TENDENCY"
+        desc = "TDA_MILITARISTIC_TENDENCY_desc"
+        
+        stability = -0.005
+        military_factory_build_speed = -0.20
+        war_support = 0.10
+        factory_output = -0.30
+        land_attack = 0.05
+        land_defense = 0.15
+        civilian_factory_build_speed = 0.30
+        
+        duration = -1
+    }
+    
+    # ====================================
+    # 四面临敌
+    # ====================================
+    TDA_surrounded_by_enemies = {
+        name = "TDA_SURROUNDED_BY_ENEMIES"
+        desc = "TDA_SURROUNDED_BY_ENEMIES_desc"
+        
+        trade_leadership = -1.0
+        war_support = 0.15
+        
+        duration = -1
+    }
+    
+    # ====================================
+    # 文化大革命
+    # ====================================
+    TDA_cultural_revolution = {
+        name = "TDA_CULTURAL_REVOLUTION"
+        desc = "TDA_CULTURAL_REVOLUTION_desc"
+        
+        stability = -0.02
+        military_factory_build_speed = -0.15
+        civilian_factory_build_speed = -0.15
         
         duration = -1
     }

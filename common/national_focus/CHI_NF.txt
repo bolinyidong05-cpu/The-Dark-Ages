@@ -1,0 +1,72 @@
+# 中华人民共和国 National Focus Tree
+
+focus_tree = {
+    id = CHI_focus
+    
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = CHI
+        }
+    }
+    
+    default = no
+    reset_on_civilwar = no
+    
+    focus = {
+        id = CHI_political_effort
+        icon = GFX_goal_generic_demand_territory
+        x = 5
+        y = 0
+        cost = 10
+        available_if_capitulated = yes
+        completion_reward = {
+            add_political_power = 120
+        }
+    }
+    
+    focus = {
+        id = CHI_political_reforms
+        icon = GFX_goal_generic_national_unity
+        prerequisite = { focus = CHI_political_effort }
+        x = 5
+        y = 1
+        cost = 10
+        available_if_capitulated = yes
+        completion_reward = {
+            add_stability = 0.1
+        }
+    }
+    
+    focus = {
+        id = CHI_industrial_effort
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 0
+        cost = 10
+        available_if_capitulated = yes
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    
+    focus = {
+        id = CHI_army_effort
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 15
+        y = 0
+        cost = 10
+        available_if_capitulated = yes
+        completion_reward = {
+            army_experience = 20
+        }
+    }
+}

@@ -1,0 +1,6 @@
+# Country colors
+
+CHI = {
+    color = rgb { 221 33 14 }
+    color_ui = rgb { 221 33 14 }
+}
