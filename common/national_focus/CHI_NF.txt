@@ -1,8 +1,5 @@
-# 中华人民共和国 National Focus Tree
-
 focus_tree = {
     id = CHI_focus
-    
     country = {
         factor = 0
         modifier = {
@@ -10,11 +7,11 @@ focus_tree = {
             tag = CHI
         }
     }
-    
     default = no
     reset_on_civilwar = no
-    
-    focus = {
+    continuous_focus_position = { x = 0 y = 0 }
+
+focus = {
         id = CHI_political_effort
         icon = GFX_goal_generic_demand_territory
         x = 5
@@ -25,25 +22,26 @@ focus_tree = {
             add_political_power = 120
         }
     }
-    
-    focus = {
+
+focus = {
         id = CHI_political_reforms
         icon = GFX_goal_generic_national_unity
-        prerequisite = { focus = CHI_political_effort }
-        x = 5
-        y = 1
+        x = 2
+        y = 2
         cost = 10
         available_if_capitulated = yes
+        prerequisite = { focus = CHI_political_effort }
+        mutually_exclusive = { focus = CHI_focus }
         completion_reward = {
             add_stability = 0.1
         }
     }
-    
-    focus = {
+
+focus = {
         id = CHI_industrial_effort
         icon = GFX_goal_generic_construct_civ_factory
-        x = 10
-        y = 0
+        x = 40
+        y = 1
         cost = 10
         available_if_capitulated = yes
         completion_reward = {
@@ -57,16 +55,47 @@ focus_tree = {
             }
         }
     }
-    
-    focus = {
+
+focus = {
         id = CHI_army_effort
         icon = GFX_goal_generic_allies_build_infantry
-        x = 15
-        y = 0
+        x = 45
+        y = 1
         cost = 10
         available_if_capitulated = yes
         completion_reward = {
             army_experience = 20
         }
     }
+
+focus = {
+        id = CHI_focus
+        icon = GFX_goal_unknown
+        x = 7
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_political_effort }
+        mutually_exclusive = { focus = CHI_political_reforms }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus CHI_focus completed"
+        }
+    }
+
+    focus = {
+        id = CHI_focus_1
+        icon = GFX_goal_unknown
+        x = 4
+        y = 4
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus CHI_focus_1 completed"
+        }
+    }
+
 }
